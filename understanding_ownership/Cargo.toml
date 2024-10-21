@@ -1,0 +1,15 @@
+[package]
+name = "understanding_ownership"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[[bin]]
+name = "ownership"
+path = "src/ownership.rs"
+
+[[bin]]
+name = "references_and_borrowing"
+path = "src/references_and_borrowing.rs"
