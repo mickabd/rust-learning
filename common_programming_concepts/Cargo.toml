@@ -4,3 +4,27 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[[bin]]
+path = "src/mutability.rs"
+name = "common_programming_concepts"
+
+[[bin]]
+name = "constants"
+path = "src/constants.rs"
+
+[[bin]]
+name = "shadowing"
+path = "src/shadowing.rs"
+
+[[bin]]
+name = "data_types"
+path = "src/data_types.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
+[[bin]]
+name = "control_flow"
+path = "src/control_flow.rs"
