@@ -13,7 +13,7 @@ fn main() {
         String::from("anotherusername"),
     );
 
-    let user2 = User {
+    let _user2 = User {
         active: user1.active,
         username: user1.username,
         email: String::from("another@example.com"),
@@ -48,6 +48,8 @@ struct Color(i32, i32, i32);
 struct Point(i32, i32, i32);
 
 fn colors() {
-    let black = Color(0, 0, 0);
-    let origin = Point(0, 0, 0);
+    let _black = Color(0, 0, 0);
+    println!("Black: {}, {}, {}", _black.0, _black.1, _black.2);
+    let _origin = Point(0, 0, 0);
+    println!("Origin: {}, {}, {}", _origin.0, _origin.1, _origin.2);
 }
