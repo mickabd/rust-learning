@@ -1,0 +1,13 @@
+[package]
+name = "enums"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+
+name = "enums"
+path = "src/enums.rs"
+
+[[bin]]
+name = "control_flow_enum"
+path = "src/control_flow_enum.rs"
