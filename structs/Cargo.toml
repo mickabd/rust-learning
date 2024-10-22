@@ -1,0 +1,18 @@
+[package]
+name = "structs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "structs"
+path = "src/structs.rs"
+
+[[bin]]
+name = "rectangle"
+path = "src/rectangle.rs"
+
+[[bin]]
+name = "methods"
+path = "src/methods.rs"
