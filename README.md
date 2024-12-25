@@ -6,6 +6,7 @@ This repository contains Rust applications to handle a deck of cards and manage 
 
 - `deck/`: Contains the Rust application for managing a deck of cards.
 - `bank/`: Contains the Rust application for managing bank accounts.
+- `media/`: Contains the Rust application for managing different types of media (Book, Movie, Audiobook, Podcast).
 
 ## Functionalities
 
@@ -19,6 +20,12 @@ This repository contains Rust applications to handle a deck of cards and manage 
 1. **Withdraw**: Withdraws an amount from an account.
 2. **Deposit**: Deposits an amount into an account.
 3. **Summary**: Prints a summary of the account and bank.
+
+### Media Application
+
+1. Create a catalog of media items (Book, Movie, Audiobook, Podcast).
+2. Add a new media item to the catalog.
+3. Describe media and catalog items.
 
 ## Getting Started
 
@@ -43,6 +50,12 @@ To get started with the project, follow these steps:
 
     ```sh
     cd bank
+    ```
+
+    For the media application:
+
+    ```sh
+    cd media
     ```
 
 3. Build the project:
