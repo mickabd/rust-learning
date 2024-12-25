@@ -1,15 +1,24 @@
 # Rust Learning Repository
 
-This repository contains a Rust application to handle a deck of cards with two main functionalities: shuffle and draw.
+This repository contains Rust applications to handle a deck of cards and manage bank accounts with various functionalities.
 
 ## Project Structure
 
 - `deck/`: Contains the Rust application for managing a deck of cards.
+- `bank/`: Contains the Rust application for managing bank accounts.
 
 ## Functionalities
 
+### Deck Application
+
 1. **Shuffle**: Randomly shuffles the deck of cards.
 2. **Draw**: Draws a card from the deck.
+
+### Bank Application
+
+1. **Withdraw**: Withdraws an amount from an account.
+2. **Deposit**: Deposits an amount into an account.
+3. **Summary**: Prints a summary of the account and bank.
 
 ## Getting Started
 
@@ -22,10 +31,18 @@ To get started with the project, follow these steps:
     cd rust-learning
     ```
 
-2. Navigate to the `deck` directory:
+2. Navigate to the desired application directory:
+
+    For the deck application:
 
     ```sh
     cd deck
+    ```
+
+    For the bank application:
+
+    ```sh
+    cd bank
     ```
 
 3. Build the project:
