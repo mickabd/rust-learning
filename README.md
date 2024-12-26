@@ -1,12 +1,13 @@
 # Rust Learning Repository
 
-This repository contains Rust applications to handle a deck of cards and manage bank accounts with various functionalities.
+This repository contains Rust applications to handle a deck of cards, manage bank accounts with various functionalities, and extract error logs from a log file.
 
 ## Project Structure
 
 - `deck/`: Contains the Rust application for managing a deck of cards.
 - `bank/`: Contains the Rust application for managing bank accounts.
 - `media/`: Contains the Rust application for managing different types of media (Book, Movie, Audiobook, Podcast).
+- `logs/`: Contains the Rust application for extracting error logs from a log file.
 
 ## Functionalities
 
@@ -26,6 +27,10 @@ This repository contains Rust applications to handle a deck of cards and manage 
 1. Create a catalog of media items (Book, Movie, Audiobook, Podcast).
 2. Add a new media item to the catalog.
 3. Describe media and catalog items.
+
+### Logs Application
+
+1. **Extract Errors**: Extracts error logs from a log file.
 
 ## Getting Started
 
@@ -56,6 +61,12 @@ To get started with the project, follow these steps:
 
     ```sh
     cd media
+    ```
+
+    For the logs application:
+
+    ```sh
+    cd logs
     ```
 
 3. Build the project:
