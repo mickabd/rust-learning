@@ -8,6 +8,7 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 - `bank/`: Contains the Rust application for managing bank accounts.
 - `media/`: Contains the Rust application for managing different types of media (Book, Movie, Audiobook, Podcast).
 - `logs/`: Contains the Rust application for extracting error logs from a log file.
+- `iter/`: Contains the Rust application for iterating through a vector and finding a value in a vector.
 
 ## Functionalities
 
@@ -31,6 +32,10 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 ### Logs Application
 
 1. **Extract Errors**: Extracts error logs from a log file.
+
+### Iter Application
+
+1. **Iterate**: Iterates through a vector and finds a value in a vector.
 
 ## Getting Started
 
@@ -67,6 +72,12 @@ To get started with the project, follow these steps:
 
     ```sh
     cd logs
+    ```
+
+    For the iter application:
+
+    ```sh
+    cd iter
     ```
 
 3. Build the project:
