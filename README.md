@@ -9,6 +9,7 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 - `media/`: Contains the Rust application for managing different types of media (Book, Movie, Audiobook, Podcast).
 - `logs/`: Contains the Rust application for extracting error logs from a log file.
 - `iter/`: Contains the Rust application for iterating through a vector and finding a value in a vector.
+- `lifetimes/`: Contains the Rust application for understanding lifetimes in Rust.
 
 ## Functionalities
 
@@ -36,6 +37,10 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 ### Iter Application
 
 1. **Iterate**: Iterates through a vector and finds a value in a vector.
+
+### Lifetimes Application
+
+1. **Lifetimes**: Demonstrates lifetimes in Rust.
 
 ## Getting Started
 
@@ -78,6 +83,12 @@ To get started with the project, follow these steps:
 
     ```sh
     cd iter
+    ```
+
+    For the lifetimes application:
+
+    ```sh
+    cd lifetimes
     ```
 
 3. Build the project:
