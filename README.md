@@ -10,6 +10,7 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 - `logs/`: Contains the Rust application for extracting error logs from a log file.
 - `iter/`: Contains the Rust application for iterating through a vector and finding a value in a vector.
 - `lifetimes/`: Contains the Rust application for understanding lifetimes in Rust.
+- `generics/`: Contains the Rust application for understanding generics in Rust.
 
 ## Functionalities
 
@@ -41,6 +42,10 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 ### Lifetimes Application
 
 1. **Lifetimes**: Demonstrates lifetimes in Rust.
+
+### Generics Application
+
+1. **Generics**: Demonstrates generics in Rust.
 
 ## Getting Started
 
@@ -89,6 +94,12 @@ To get started with the project, follow these steps:
 
     ```sh
     cd lifetimes
+    ```
+
+    For the generics application:
+
+    ```sh
+    cd generics
     ```
 
 3. Build the project:
