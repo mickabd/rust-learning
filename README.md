@@ -11,6 +11,7 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 - `iter/`: Contains the Rust application for iterating through a vector and finding a value in a vector.
 - `lifetimes/`: Contains the Rust application for understanding lifetimes in Rust.
 - `generics/`: Contains the Rust application for understanding generics in Rust.
+- `traits/`: Contains the Rust application for understanding traits in Rust.
 
 ## Functionalities
 
@@ -46,6 +47,10 @@ This repository contains Rust applications to handle a deck of cards, manage ban
 ### Generics Application
 
 1. **Generics**: Demonstrates generics in Rust.
+
+### Traits Application
+
+1. **Traits**: Demonstrates traits in Rust.
 
 ## Getting Started
 
@@ -100,6 +105,12 @@ To get started with the project, follow these steps:
 
     ```sh
     cd generics
+    ```
+
+    For the traits application:
+
+    ```sh
+    cd traits
     ```
 
 3. Build the project:
